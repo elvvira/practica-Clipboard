@@ -1,0 +1,48 @@
+@use '../mixins/responsive.scss' as *;
+
+.article__icons{
+    @include responsive (desktop){
+        position: relative;
+        top: 880px;
+    }
+    &--container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 70px;
+        @include responsive (desktop){
+            flex-direction: row;
+            width: 75%;
+            text-align: center;
+            position: static;
+            right: -250px;
+        }
+    }
+    &--image{
+        margin-right: auto;
+        margin-left: auto;
+       
+    }
+}
+.container--images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-bottom: 250px;
+    @include responsive (desktop){
+        position: relative;
+        top: 880px;
+        flex-direction: row;
+    }
+}
+.article--end{
+    background-image: none;
+    margin-bottom: 450px;
+    @include responsive (desktop){
+        position: relative;
+        top: 900px;
+    }
+}

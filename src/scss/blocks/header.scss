@@ -1,0 +1,77 @@
+/* ESTILOS DEL HEADER */
+@use '../mixins/responsive.scss' as *;
+ body{
+    font-family: 'Bai Jamjuree', sans-serif;
+ }
+.header{
+    height: 500px;
+    background-image: url(../assets/images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    @include responsive(desktop){
+        background-image: url(../assets/images/bg-header-desktop.png);
+        height: 600px;
+    }
+
+    &__logo{
+        padding-top: 100px;
+        width: 200px;
+        margin-bottom: 70px;
+        margin-right: auto;margin-left: auto;
+    }
+
+    &__top{
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    &__title{
+        font-family: 'Bai Jamjuree', sans-serif;
+    }
+
+    &__text{
+        font-size: 1.2rem;
+        line-height: 1.9rem;
+        word-spacing: 2px;
+        color: var(--grayish-blue);
+        margin-bottom: 60px; 
+        @include responsive (desktop){
+            width: 900px;
+            margin-right: auto;margin-left: auto;
+        }
+
+    }
+}
+
+
+
+.header__buttoms{
+    width: 80%;
+    height: 50px;
+    margin-left: auto;margin-right: auto;
+    border-radius: 2rem;
+    color: white;
+    padding-top: 15px;
+    font-size: 1.3rem;
+    @include responsive(desktop){
+        width: 350px;
+    }
+}
+.buttom--light{
+    margin-bottom: 20px;
+    background-color: var(--strong-cyan);
+    box-shadow: 1px 1px 10px var(--strong-cyan);
+}
+.buttom--dark{
+    background-color: var(--light-blue);
+    box-shadow: 1px 1px 10px var(--light-blue);
+}
+@include responsive(desktop){
+    .header__bottom{
+        width: 750px;
+        display: flex;
+        margin-left: auto;margin-right: auto;
+    }
+}
