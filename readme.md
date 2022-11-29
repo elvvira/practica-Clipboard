@@ -1,19 +1,18 @@
-# Huddle
+# Clipboard
 
 ![Imagen del proyecto](https://github.com/elvvira/practica-huddle/blob/main/docs/assets/desktop.jpeg?raw=true)
 
 ## Ejemplo en vivo
 
 - [github-repositorie](https://github.com/elvvira/practica-Blogr)
-- [URL-de-la-api](https://elvvira.github.io/practica-huddle/)
 
 ## Descripción 
 
-Huddle es una paltaforma en la que tu audiencia se puede comunicar y mejorar la conexiones, creando comunidades.
+Clipboard es una plataforma que te ayuda a organizar los archivos que subes a la nube. se encuentra disponible para iOS y mac
 
 ## ¿Qué he aprendido en este proyecto? 
 
-En esta práctica mejoré la fluidez con el responsive, aprendiendo a trabajar pensando en los dos tamaños correspondientes. También mejoré mis habilidades usando la herramienta flex. 
+En esta práctica usé por primera vez Sass, aprendiendo a organizar por bloques para poder reutilizar elementos mediante clases. 
 
 ## Tecnologías 
 
@@ -40,4 +39,4 @@ Si quieres echar un vistazo al proyecto:
 ## Fente
 web extarída de:
 
-https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP
+https://www.frontendmentor.io/challenges
