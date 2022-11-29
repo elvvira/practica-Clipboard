@@ -1,10 +1,10 @@
 # Clipboard
 
-![Imagen del proyecto](https://github.com/elvvira/practica-huddle/blob/main/docs/assets/desktop.jpeg?raw=true)
+![Imagen del proyecto](https://github.com/elvvira/practica-Clipboard/blob/main/docs/assets/desktop.jpeg?raw=true)
 
 ## Ejemplo en vivo
 
-- [github-repositorie](https://github.com/elvvira/practica-Blogr)
+- [github-repositorie](https://elvvira.github.io/practica-Clipboard/)
 
 ## Descripción 
 
@@ -20,13 +20,15 @@ En esta práctica usé por primera vez Sass, aprendiendo a organizar por bloques
 
 [![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://es.wikipedia.org/wiki/HTML5)
 [![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://es.wikipedia.org/wiki/CSS)
+[![SASS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)](https://es.wikipedia.org/wiki/CSS)
+
 [![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://es.wikipedia.org/wiki/JavaScript)
 
 ## Vista previa del proyecto
 
 Si quieres echar un vistazo al proyecto:
 
-![Captura del proyecto](https://github.com/elvvira/practica-huddle/blob/main/docs/assets/mobile.jpeg?raw=true)
+![Captura del proyecto](https://github.com/elvvira/practica-Clipboard/blob/main/docs/assets/mobile.jpeg?raw=true)
 
 
 ## Autor 
